@@ -1,0 +1,117 @@
+.inputEmail {
+  width: 500px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 12px 0px 0px 12px;
+  padding: 0 10px 0 29px;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 12px 0px 0px 12px;
+  -moz-border-radius: 12px 0px 0px 12px;
+  -ms-border-radius: 12px 0px 0px 12px;
+  -o-border-radius: 12px 0px 0px 12px;
+  filter: drop-shadow(0px 4px 24px black);
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+  border: none;
+  outline: none;
+}
+
+.inputEmail::placeholder {
+  color: rgba(26, 26, 46, 0.4);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.submit {
+  width: 252px;
+  height: 50px;
+  background: #ff5c58;
+  border-radius: 0px 12px 12px 0px;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 0px 12px 12px 0px;
+  -moz-border-radius: 0px 12px 12px 0px;
+  -ms-border-radius: 0px 12px 12px 0px;
+  -o-border-radius: 0px 12px 12px 0px;
+  filter: drop-shadow(0px 4px 24px black);
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+}
+
+.inscrire {
+  width: 172px;
+  height: 50px;
+  background: linear-gradient(to left top, #ff8a58, #ffb565);
+  border-radius: 12px 12px 12px 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -ms-border-radius: 12px 12px 12px 12px;
+  -o-border-radius: 12px 12px 12px 12px;
+  filter: drop-shadow(0px 4px 24px black);
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+}
+
+.email,
+.password {
+  width: 484px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 12px 12px 12px 12px;
+  padding: 0 10px 0 29px;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -ms-border-radius: 12px 12px 12px 12px;
+  -o-border-radius: 12px 12px 12px 12px;
+  filter: drop-shadow(0px 4px 24px black);
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+  border: none;
+  outline: none;
+}
+
+.checkbox1,
+.checkbox2 {
+  width: 189px;
+  height: 45px;
+  border: 1px solid #ffb565;
+  border-radius: 22.5px;
+  color: #ffb565;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  -webkit-border-radius: 22.5px;
+  -moz-border-radius: 22.5px;
+  -ms-border-radius: 22.5px;
+  -o-border-radius: 22.5px;
+}
+
+input:checked~label {
+  border-color: #ff8a58;
+  color: #ff8a58;
+}

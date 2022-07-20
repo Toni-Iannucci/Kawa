@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f46147;
+  width: 100%;
+  height: 100px;
+
+  .logo {
+    padding-left: 30%;
+    padding-top: 10px;
+    width: 125px;
+    height: 70px;
+  }
+
+  .logoInstagram {
+    width: 32px;
+    height: 32px;
+  }
+
+  nav {
+    padding-right: 5%;
+
+    ul {
+      display: flex;
+      padding-top: 38px;
+      align-items: center;
+
+      li {
+        margin-right: 30px;
+        list-style: none;
+      }
+    }
+  }
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .titre {
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vectorDroit {
+    position: absolute;
+    top: 36%;
+    right: 23%;
+  }
+
+  .vectorGauche {
+    position: absolute;
+    top: 61%;
+    right: 64%;
+  }
+
+  .paraForm {
+    padding-top: 14%;
+  }
+
+  p {
+    padding-bottom: 2%;
+  }
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.decouvrirSection {
+  display: flex;
+  padding-top: 20%;
+  justify-content: space-between;
+
+  .decouvrirKawa {
+    padding-top: 5%;
+
+    hr {
+      width: 130px;
+      height: 5px;
+      border-radius: 10px;
+      border: none;
+      background-color: #f46147;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+  }
+
+  article {
+    width: calc((100%) / 2);
+  }
+}
+
+.etapeSection {
+  display: flex;
+  padding-top: 10%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+
+  article {
+    width: calc((100%) / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .imageUn {
+      width: 278px;
+    }
+
+    .imageDeux {
+      width: 266px;
+    }
+
+    .imageTrois {
+      width: 261px;
+    }
+  }
+}
+
+.categoriesSection {
+  height: 600px;
+  margin-top: 10%;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      width: calc((100%) / 6);
+      padding-top: 2%;
+
+      img {
+        width: 67px;
+        height: 67px;
+      }
+    }
+  }
+}
+
+.profilSection {
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+  }
+}
+
+footer {
+  img {
+    padding-left: 5%;
+    padding-top: 10px;
+    width: 110px;
+    height: 70px;
+  }
+}
+
+.connectionForm,
+.inscriptionForm {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+  label {
+    display: block;
+  }
+}
+
+.inscriptionForm {
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
+}
+
+.boutonInscription {
+  padding-top: 3%;
+}
+
+.connectionFooter {
+  margin-top: 13%;
+}
+
+.checkboxSection {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+
+.retourContainer {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.sectionProfil {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+
+    .card {
+      width: 100%;
+      height: auto;
+
+      .icons {
+        justify-content: center;
+        padding-top: 2%;
+        gap: 2%;
+
+        img {
+          padding: 0%;
+        }
+
+        .right {
+          padding-left: 0%;
+        }
+      }
+    }
+  }
+}
+
+.textDescription {
+  padding-top: 2%;
+  width: 50%;
+  margin: auto;
+}
+
+.lieu {
+  padding-bottom: 2%;
+}

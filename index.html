@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./assets/images/kawaIcone.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Découvrez Kawa, notre plateforme de mise en relation entre expert et nocice autour d'un café ">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Kawa-Page d'accueil</title>
+
+
+
+</head>
+
+<body>
+  <!-- Messenger Plugin de discussion Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin de discussion code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "100275496077111");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v14.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <header>
+    <a href="./index.html"> <img src="assets/images/logo.svg" alt="logoKawa" class="logo"> </a>
+    <nav>
+      <ul>
+        <li>
+          <a class="nav" href="pages/inscription.html">S'inscrire</a>
+        </li>
+        <li>
+          <a class="btnPreco" href="pages/connection.html">Se connecter</a>
+        </li>
+        <li class="logoInsta">
+          <a class="nav" href="https://www.instagram.com/meetkawa_/" target="_blank">
+            <img src="assets/images/logoInstagram.png" alt="logoInstagram" class="logoInstagram">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+    <section class="heroSection">
+      <div class="titre">
+        <span class="vectorGauche"> <img src="assets/images/vectorGauche.png" alt="éclaboussure"></span>
+        <h1>La plateforme de mise en relations entre un novice et un expert le temps d'un café.</h1>
+        <span class="vectorDroit"> <img src="assets/images/vectorDroit.png" alt="éclaboussure"></span>
+      </div>
+      <div class="paraForm">
+        <p>Trouvez un rendez-vous avec de nos experts un échange en privée.</p>
+        <form action="" class="Recherche">
+          <input type="text" placeholder="Essayez “Communication digitale”" class="inputEmail">
+          <input type="submit" value="Rechercher" class="submit">
+        </form>
+      </div>
+    </section>
+    <div class="container">
+      <section class="decouvrirSection">
+        <article class="decouvrirKawa">
+          <h2>DÉCOUVREZ KAWA</h2>
+          <hr>
+          <p>Kawa c’est la mise en relation entre un novice et un expert sur un thème choisi, autour d’un café.Les
+            experts proposent leurs tarifs et les novices choisissent leur experts, pour un échange privé (comme une
+            masterclass ou une conférence privée) sur le temps d’un café.</p>
+        </article>
+        <article class="secondeImage">
+          <img src="assets/images/secondeImage.png" alt="Discussion de deux filles dans un café">
+        </article>
+      </section>
+    </div>
+    <div class="container">
+      <h2 class="etapeTitre">Un kawa en 3 étapes</h2>
+      <section class="etapeSection">
+
+        <article>
+          <img src="assets/images/etapeUn.png" alt="" class="Illustration d'un homme sur un ordinateur">
+
+          <h3>étape 1</h3>
+          <p>Commencez par vous créer un compte et complété le à 100%</p>
+
+        </article>
+        <article>
+          <img src="assets/images/etapeDeux.png" alt="" class="Illustrations de différents profils">
+
+          <h3>étape 2</h3>
+          <p>Naviguez parmi les nombreux profils d’expert.
+            Trouver et réserver votre Kawa.</p>
+
+        </article>
+        <article>
+          <img src="assets/images/etapeTrois.png" alt="" class="Illustration d'une rencontre autour d'un café">
+
+          <h3>étape 3</h3>
+          <p>Aller au rendez-vous que vous avez réservez et échangez avec nos experts.</p>
+
+        </article>
+      </section>
+    </div>
+    <section class="categoriesSection">
+      <h2 class="etapeThematique">DÉCOUVREZ les thématiques</h2>
+      <div class="container">
+        <div>
+          <a href="./pages/choixsenior.html"><img src="assets/images/graphisme.png" alt="iconeGraphisme"></a>
+          <p>Graphisme</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/marketing.png" alt="iconeMarketing"></a>
+          <p>Marketing</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/video.png" alt="iconeVideo"></a>
+          <p>Video</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/sport.png" alt="iconeSport"></a>
+          <p>Sport</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/reseauSociaux.png"
+              alt=" icone Reseau sociaux"></a>
+          <p>Réseaux sociaux</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/musique.png" alt="iconeMusique"> </a>
+          <p>Musique</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/entreprenariat.png" alt="iconeEntrepreneriat">
+          </a>
+          <p>Entrepreneriat</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/business.png" alt="iconeBusiness"> </a>
+          <p>Business</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/dev.png" alt="iconeDev"> </a>
+          <p>Développement</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/loisirs.png" alt="iconeLoisirs"> </a>
+          <p>Loisirs</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/culture.png" alt="iconeCulture"> </a>
+          <p>Culture</p>
+        </div>
+        <div>
+          <a href="./pages/choixsenior.html"> <img src="assets/images/plus.png" alt="icone Voir plus"> </a>
+          <p>Plus</p>
+        </div>
+      </div>
+    </section>
+    <section class="profilSection">
+      <h2 class="expertTitre">DÉCOUVREZ nos experts</h2>
+      <div class="container">
+        <article>
+          <img src="assets/images/axel.png" alt="Photo d'Axel">
+          <h4>Axel</h4>
+          <p>Designer</p>
+        </article>
+        <article>
+          <img src="assets/images/paul.png" alt="Photo de Paul">
+          <h4>Paul</h4>
+          <p>Entrepreneur</p>
+        </article>
+        <article>
+          <img src="assets/images/aurelie.png" alt="photo d'Aurelie">
+          <h4>Aurelie</h4>
+          <p>Chef de projet</p>
+        </article>
+        <article>
+          <img src="assets/images/audrey.png" alt="Photo d'Audrey">
+          <h4>Audrey</h4>
+          <p>Développeuse Web</p>
+        </article>
+        <article>
+          <img src="assets/images/nathan.png" alt="Phode de Nathan">
+          <h4>Nathan</h4>
+          <p>Conférencier</p>
+        </article>
+        <article>
+          <img src="assets/images/lucien.png" alt="Photo de Lucien">
+          <h4>Lucien</h4>
+          <p>Influencer</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img src="assets/images/logo.svg" alt="logoKawa" class="logo">
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,683 @@
+@media screen and (min-width: 3070px) and (max-width: 3074px) {
+  .heroSection h1 {
+    width: 60%;
+  }
+
+  .heroSection {
+    .vectorGauche {
+      top: 36%;
+      right: 68%;
+    }
+
+    .vectorDroit {
+      top: 26%;
+      right: 28%;
+    }
+
+    .paraForm {
+      padding-top: 5%;
+    }
+  }
+
+  .decouvrirSection p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+  }
+
+  .categoriesSection {
+    height: 900px;
+
+    .etapeThematique::before {
+      right: 38%;
+    }
+
+    .etapeThematique::after {
+      left: 38%;
+    }
+  }
+
+  .profilSection {
+    .expertTitre::before {
+      right: 39%;
+    }
+
+    .expertTitre::after {
+      left: 39%;
+    }
+  }
+
+  .etapeInscription {
+    .choix::before {
+      right: 42%;
+    }
+
+    .choix::after {
+      left: 42%;
+    }
+  }
+
+  .informations::before {
+    right: 41%;
+  }
+
+  .informations::after {
+    left: 41%;
+  }
+}
+
+@media screen and (min-width: 2519px) and (max-width: 2650px) {
+  .heroSection {
+    h1 {
+      width: 60%;
+    }
+
+    .vectorDroit {
+      top: 39%;
+      right: 24%;
+    }
+
+    .vectorGauche {
+      top: 55%;
+      right: 71%;
+    }
+
+    .paraForm {
+      padding-top: 9%;
+    }
+  }
+}
+
+@media screen and (min-width: 1425px) and (max-width: 1450px) {
+  .heroSection {
+    h1 {
+      width: 60%;
+    }
+
+    .vectorDroit {
+      top: 23%;
+      right: 19%;
+    }
+
+    .vectorGauche {
+      top: 44%;
+      right: 80%;
+    }
+
+    .paraForm {
+      padding-top: 23%;
+    }
+  }
+
+  .etapeTitre::before {
+    right: 26%;
+  }
+
+  .etapeTitre::after {
+    left: 26%;
+  }
+
+  .categoriesSection h2::before {
+    right: 24%;
+  }
+
+  .categoriesSection h2::after {
+    left: 24%;
+  }
+
+  .profilSection h2::before {
+    right: 26%;
+  }
+
+  .profilSection h2::after {
+    left: 26%;
+  }
+
+  .etapeInscription {
+    .choix::before {
+      right: 32%;
+    }
+
+    .choix::after {
+      left: 32%;
+    }
+
+    .informations::before {
+      right: 30%;
+    }
+
+    .informations::after {
+      left: 30%;
+    }
+  }
+
+  .etapeConnection {
+    .Connection::before {
+      right: 34%;
+    }
+
+    .Connection::after {
+      left: 34%;
+    }
+  }
+
+  .connectionFooter {
+    margin-top: 17%;
+  }
+
+  .sectionProfilCadre .container {
+    width: 100%;
+    justify-content: center;
+    gap: 3%;
+  }
+}
+
+@media screen and (min-width: 1325px) and (max-width: 1327px) {
+  .heroSection {
+    h1 {
+      width: 60%;
+    }
+
+    .vectorDroit {
+      top: 23%;
+      right: 19%;
+    }
+
+    .vectorGauche {
+      top: 44%;
+      right: 80%;
+    }
+
+    .paraForm {
+      padding-top: 26%;
+    }
+  }
+
+  .etapeTitre::before {
+    right: 26%;
+  }
+
+  .etapeTitre::after {
+    left: 26%;
+  }
+
+  .categoriesSection h2::before {
+    right: 24%;
+  }
+
+  .categoriesSection h2::after {
+    left: 24%;
+  }
+
+  .profilSection h2::before {
+    right: 26%;
+  }
+
+  .profilSection h2::after {
+    left: 26%;
+  }
+
+  .etapeInscription {
+    .choix::before {
+      right: 32%;
+    }
+
+    .choix::after {
+      left: 32%;
+    }
+
+    .informations::before {
+      right: 30%;
+    }
+
+    .informations::after {
+      left: 30%;
+    }
+  }
+
+  .etapeConnection {
+    .Connection::before {
+      right: 34%;
+    }
+
+    .Connection::after {
+      left: 34%;
+    }
+  }
+
+  .connectionFooter {
+    margin-top: 17%;
+  }
+}
+
+@media screen and (min-width: 1178px) and (max-width: 1200px) {
+  .heroSection h1 {
+    width: 65%;
+  }
+
+  .heroSection .vectorGauche {
+    top: 58%;
+    right: 84%;
+  }
+
+  .heroSection .vectorDroit {
+    position: absolute;
+    top: 29%;
+    right: 17%;
+  }
+
+  .etapeTitre::before {
+    right: 23%;
+  }
+
+  .etapeTitre::after {
+    left: 23%;
+  }
+
+  .categoriesSection h2::before {
+    right: 21%;
+  }
+
+  .categoriesSection h2::after {
+    left: 21%;
+  }
+
+  .profilSection h2::before {
+    right: 24%;
+  }
+
+  .profilSection h2::after {
+    left: 24%;
+  }
+
+  .etapeInscription .choix::before {
+    right: 30%;
+  }
+
+  .etapeInscription .choix::after {
+    left: 30%;
+  }
+
+  .etapeInscription .informations::before {
+    right: 28%;
+  }
+
+  .etapeInscription .informations::after {
+    left: 28%;
+  }
+
+  .etapeConnection h2::before {
+    right: 31%;
+  }
+
+  .etapeConnection h2::after {
+    left: 31%;
+  }
+
+  .connectionFooter {
+    height: 200px;
+  }
+
+  .categoriesSection {
+    height: 500px;
+  }
+
+  .profilSection .container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1121px) {
+  .profilSection .container {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .categoriesSection {
+    .container {
+      div {
+        width: calc((100%) / 3);
+      }
+    }
+  }
+
+  .categoriesSection {
+    height: 100%;
+  }
+
+  .profilSection h2::after {
+    content: none;
+  }
+
+  .profilSection h2::before {
+    content: none;
+  }
+
+  .categoriesSection h2::after {
+    content: none;
+  }
+
+  .categoriesSection h2::before {
+    content: none;
+  }
+
+  .container .etapeTitre::after {
+    content: none;
+  }
+
+  .container .etapeTitre::before {
+    content: none;
+  }
+
+  .etapeSection {
+    display: block;
+
+    article {
+      width: 100%;
+    }
+  }
+
+  .decouvrirSection {
+    display: flex;
+    flex-wrap: wrap;
+
+    .article {
+      width: 100%;
+    }
+
+    .decouvrirKawa {
+      padding-top: 5%;
+      padding-left: 4%;
+      width: 100%;
+
+      p {
+        width: 95%;
+      }
+    }
+
+    .secondeImage {
+      width: 90%;
+      padding-top: 4%;
+      margin: 0 auto;
+    }
+  }
+
+  .heroSection {
+    height: 100%;
+
+    h1 {
+      font-size: 20px;
+      line-height: 32px;
+      width: 90%;
+    }
+  }
+
+  .Recherche {
+    display: none;
+  }
+
+  .vectorDroit {
+    display: none;
+  }
+
+  .vectorGauche {
+    display: none;
+  }
+
+  .logoInsta {
+    display: none;
+  }
+
+  .paraForm p {
+    display: none;
+  }
+
+  header nav ul li {
+    margin-right: 10px;
+  }
+
+  header a .logo {
+    width: 67px;
+  }
+
+  .btnPreco {
+    font-size: 14px;
+  }
+
+  .checkboxSection {
+    flex-wrap: wrap;
+  }
+
+  .inscriptionForm .container {
+    flex-wrap: wrap;
+  }
+
+  .email,
+  .password {
+    width: 241px;
+  }
+
+  .connectionFooter {
+    margin-top: 92%;
+  }
+
+  .textDescription {
+    width: 73%;
+  }
+
+  .sectionProfil {
+    .container {
+      width: 90%;
+    }
+  }
+
+  .sectionProfil .container .card .icons {
+    gap: 7%;
+  }
+
+  .etapeInscription .informations::before {
+    content: none;
+  }
+
+  .etapeInscription .informations::after {
+    content: none;
+  }
+
+  .etapeInscription .choix::before {
+    content: none;
+  }
+
+  .etapeInscription .choix::after {
+    content: none;
+  }
+
+  .etapeConnection h2::before {
+    content: none;
+  }
+
+  .etapeConnection h2::after {
+    content: none;
+  }
+}
+
+@media screen and (min-width: 318px) and (max-width: 426px) {
+  .profilSection .container {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .categoriesSection {
+    .container {
+      div {
+        width: calc((100%) / 2);
+      }
+    }
+  }
+
+  .categoriesSection {
+    height: 100%;
+  }
+
+  .profilSection h2::after {
+    content: none;
+  }
+
+  .profilSection h2::before {
+    content: none;
+  }
+
+  .categoriesSection h2::after {
+    content: none;
+  }
+
+  .categoriesSection h2::before {
+    content: none;
+  }
+
+  .container .etapeTitre::after {
+    content: none;
+  }
+
+  .container .etapeTitre::before {
+    content: none;
+  }
+
+  .etapeSection {
+    display: block;
+
+    article {
+      width: 100%;
+    }
+  }
+
+  .decouvrirSection {
+    display: flex;
+    flex-wrap: wrap;
+
+    .article {
+      width: 100%;
+    }
+
+    .decouvrirKawa {
+      padding-top: 5%;
+      padding-left: 4%;
+      width: 100%;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .secondeImage {
+      width: 90%;
+      padding-top: 4%;
+      margin: 0 auto;
+    }
+  }
+
+  .heroSection {
+    height: 100%;
+
+    h1 {
+      font-size: 20px;
+      line-height: 32px;
+      width: 100%;
+    }
+  }
+
+  .Recherche {
+    display: none;
+  }
+
+  .vectorDroit {
+    display: none;
+  }
+
+  .vectorGauche {
+    display: none;
+  }
+
+  .logoInsta {
+    display: none;
+  }
+
+  .paraForm p {
+    display: none;
+  }
+
+  header nav ul li {
+    margin-right: 10px;
+  }
+
+  header a .logo {
+    width: 67px;
+  }
+
+  .btnPreco {
+    font-size: 14px;
+  }
+
+  .checkboxSection {
+    flex-wrap: wrap;
+  }
+
+  .inscriptionForm .container {
+    flex-wrap: wrap;
+  }
+
+  .email,
+  .password {
+    width: 241px;
+  }
+
+  .checkbox2 {
+    margin-top: 8%;
+  }
+
+  .connectionFooter {
+    margin-top: 92%;
+  }
+
+  .textDescription {
+    width: 73%;
+  }
+
+  .sectionProfil {
+    .container {
+      width: 90%;
+    }
+  }
+
+  .sectionProfil .container .card .icons {
+    gap: 7%;
+  }
+
+  .etapeInscription .informations::before {
+    content: none;
+  }
+
+  .etapeInscription .informations::after {
+    content: none;
+  }
+
+  .etapeInscription .choix::before {
+    content: none;
+  }
+
+  .etapeInscription .choix::after {
+    content: none;
+  }
+
+  .etapeConnection h2::before {
+    content: none;
+  }
+
+  .etapeConnection h2::after {
+    content: none;
+  }
+}

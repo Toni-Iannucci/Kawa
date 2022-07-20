@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Inscrivez-vous directement sur notre plateforme Kawa en passant par ici">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/images/kawaIcone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Kawa-Portail d'inscription</title>
+
+
+
+</head>
+
+<body>
+    <!-- Messenger Plugin de discussion Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de discussion code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100275496077111");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+        <header>
+            <a href="../index.html"><img src="../assets/images/logo.svg" alt="logoKawa" class="logo"></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="nav" href="./inscription.html">S'inscrire</a>
+                    </li>
+                    <li>
+                        <a class="btnPreco" href="./connection.html">Se connecter</a>
+                    </li>
+                    <li class="logoInsta">
+                        <a class="nav" href="https://www.instagram.com/meetkawa_/" target="_blank">
+                            <img src="../assets/images/logoInstagram.png" alt="logoInstagram" class="logoInstagram">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+		<main>
+			<section class="etapeInscription">
+				<h2 class="choix">Vous êtes un·E</h2>
+                <div class="checkboxSection">
+                    <div class="ck-button">
+                        <input type="checkbox" id="checkbox1" hidden>
+                        <label for="checkbox1" class="checkbox1">Novice</label>
+                     </div>
+                     <div class="ck-button">
+                        <input type="checkbox" id="checkbox2" hidden>
+                        <label for="checkbox2" class="checkbox2">Senior</label>
+                     </div>
+                </div>
+                <h2 class="informations">Vos informations</h2>
+                <form action="" class="inscriptionForm">
+                    <div class="container">
+                    <div class="formulaire">
+                    <label for="nom">Nom</label>
+                    <input type="text" placeholder="" class="email" name="nom">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" value="" class="password" name="prenom">
+                </div>
+                <div class="formulaire">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="" class="email" name="email">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" value="" class="password" name="password">
+                </div>
+            </div>
+                <div class="formulaire boutonInscription">
+                    <input type="submit" value="S'inscrire" class="inscrire">
+                </div>
+                </form>
+                </section>
+                </main>
+                <footer>
+                    <img src="../assets/images/logo.svg" alt="logo" class="logo">
+                </footer>
+                </body>
+                </html>

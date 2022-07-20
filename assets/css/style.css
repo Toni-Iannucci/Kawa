@@ -1,0 +1,1132 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-weight: 300; }
+
+.nav {
+  color: #ffff; }
+
+.btnPreco {
+  border-radius: 22px;
+  border: solid 1px white;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 7px 24px;
+  text-decoration: none;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px; }
+
+h2,
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase; }
+
+.heroSection h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+  width: 50%;
+  line-height: 61px;
+  position: relative; }
+.heroSection p {
+  font-size: 24px;
+  color: white; }
+
+.decouvrirSection h2 {
+  padding-bottom: 3%; }
+.decouvrirSection p {
+  font-size: 16px;
+  color: black;
+  padding-top: 3%;
+  width: 68%; }
+
+.etapeTitre {
+  text-align: center;
+  position: relative;
+  margin-top: 10%; }
+
+.etapeTitre::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  left: 30%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+
+.etapeTitre::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  right: 30%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+
+.etapeSection p {
+  font-size: 16px;
+  color: black;
+  padding-top: 3%;
+  width: 64%;
+  text-align: center; }
+.etapeSection h3 {
+  margin-top: 6%; }
+
+.profilSection h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+.profilSection h2::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  right: 32%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+.profilSection h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  left: 32%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+.profilSection p {
+  font-size: 16px;
+  padding-top: 5%; }
+.profilSection h4 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10%; }
+
+.categoriesSection .container div {
+  text-align: center; }
+  .categoriesSection .container div p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 8%; }
+.categoriesSection h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+.categoriesSection h2::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  right: 30%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+.categoriesSection h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  left: 30%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+
+.etapeConnection h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+.etapeConnection h2::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  right: 37%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+.etapeConnection h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  left: 37%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+
+.connectionForm label,
+.inscriptionForm label {
+  display: block;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 2% 0 2% 0; }
+
+.etapeInscription h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+.etapeInscription .choix::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  right: 37%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+.etapeInscription .choix::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  left: 37%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+.etapeInscription .informations::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  left: 36%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+.etapeInscription .informations::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #f46147;
+  position: absolute;
+  border-radius: 10px;
+  right: 36%;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+
+.card-content h3 {
+  font-size: 20px; }
+.card-content p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6); }
+
+.lieu {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6); }
+
+.icons p {
+  color: #ffb565;
+  font-size: 16px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f46147;
+  width: 100%;
+  height: 100px; }
+  header .logo {
+    padding-left: 30%;
+    padding-top: 10px;
+    width: 125px;
+    height: 70px; }
+  header .logoInstagram {
+    width: 32px;
+    height: 32px; }
+  header nav {
+    padding-right: 5%; }
+    header nav ul {
+      display: flex;
+      padding-top: 38px;
+      align-items: center; }
+      header nav ul li {
+        margin-right: 30px;
+        list-style: none; }
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .heroSection .titre {
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .heroSection .vectorDroit {
+    position: absolute;
+    top: 36%;
+    right: 23%; }
+  .heroSection .vectorGauche {
+    position: absolute;
+    top: 61%;
+    right: 64%; }
+  .heroSection .paraForm {
+    padding-top: 14%; }
+  .heroSection p {
+    padding-bottom: 2%; }
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 90%; }
+
+.decouvrirSection {
+  display: flex;
+  padding-top: 20%;
+  justify-content: space-between; }
+  .decouvrirSection .decouvrirKawa {
+    padding-top: 5%; }
+    .decouvrirSection .decouvrirKawa hr {
+      width: 130px;
+      height: 5px;
+      border-radius: 10px;
+      border: none;
+      background-color: #f46147;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px; }
+  .decouvrirSection article {
+    width: calc((100%) / 2); }
+
+.etapeSection {
+  display: flex;
+  padding-top: 10%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline; }
+  .etapeSection article {
+    width: calc((100%) / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .etapeSection article .imageUn {
+      width: 278px; }
+    .etapeSection article .imageDeux {
+      width: 266px; }
+    .etapeSection article .imageTrois {
+      width: 261px; }
+
+.categoriesSection {
+  height: 600px;
+  margin-top: 10%; }
+  .categoriesSection .container {
+    display: flex;
+    flex-wrap: wrap; }
+    .categoriesSection .container div {
+      width: calc((100%) / 6);
+      padding-top: 2%; }
+      .categoriesSection .container div img {
+        width: 67px;
+        height: 67px; }
+
+.profilSection .container {
+  display: flex;
+  justify-content: center;
+  gap: 33px; }
+
+footer img {
+  padding-left: 5%;
+  padding-top: 10px;
+  width: 110px;
+  height: 70px; }
+
+.connectionForm,
+.inscriptionForm {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center; }
+  .connectionForm label,
+  .inscriptionForm label {
+    display: block; }
+
+.inscriptionForm .container {
+  display: flex;
+  justify-content: center;
+  gap: 3%; }
+
+.boutonInscription {
+  padding-top: 3%; }
+
+.connectionFooter {
+  margin-top: 13%; }
+
+.checkboxSection {
+  display: flex;
+  justify-content: center;
+  gap: 3%; }
+
+.retourContainer {
+  padding-left: 5%;
+  padding-top: 5%; }
+
+.sectionProfil {
+  display: flex;
+  justify-content: center; }
+  .sectionProfil .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center; }
+    .sectionProfil .container .card {
+      width: 100%;
+      height: auto; }
+      .sectionProfil .container .card .icons {
+        justify-content: center;
+        padding-top: 2%;
+        gap: 2%; }
+        .sectionProfil .container .card .icons img {
+          padding: 0%; }
+        .sectionProfil .container .card .icons .right {
+          padding-left: 0%; }
+
+.textDescription {
+  padding-top: 2%;
+  width: 50%;
+  margin: auto; }
+
+.lieu {
+  padding-bottom: 2%; }
+
+.heroSection {
+  background-image: url(../images/heroImage.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 797px;
+  border-radius: 0px 0px 160px 160px; }
+
+body {
+  background-color: white; }
+
+.secondeImage img {
+  width: 100%;
+  border-radius: 31px;
+  -webkit-border-radius: 31px;
+  -moz-border-radius: 31px;
+  -ms-border-radius: 31px;
+  -o-border-radius: 31px; }
+
+.categoriesSection {
+  background-color: #f2f2f2; }
+
+footer {
+  background: linear-gradient(to left top, #ff8a58, #ffb565);
+  margin-top: 5%; }
+
+.button {
+  border: none;
+  background: none; }
+
+.inputEmail {
+  width: 500px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 12px 0px 0px 12px;
+  padding: 0 10px 0 29px;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 12px 0px 0px 12px;
+  -moz-border-radius: 12px 0px 0px 12px;
+  -ms-border-radius: 12px 0px 0px 12px;
+  -o-border-radius: 12px 0px 0px 12px;
+  filter: drop-shadow(0px 4px 24px black);
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+  border: none;
+  outline: none; }
+
+.inputEmail::placeholder {
+  color: rgba(26, 26, 46, 0.4);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px; }
+
+.submit {
+  width: 252px;
+  height: 50px;
+  background: #ff5c58;
+  border-radius: 0px 12px 12px 0px;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 0px 12px 12px 0px;
+  -moz-border-radius: 0px 12px 12px 0px;
+  -ms-border-radius: 0px 12px 12px 0px;
+  -o-border-radius: 0px 12px 12px 0px;
+  filter: drop-shadow(0px 4px 24px black);
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25)); }
+
+.inscrire {
+  width: 172px;
+  height: 50px;
+  background: linear-gradient(to left top, #ff8a58, #ffb565);
+  border-radius: 12px 12px 12px 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -ms-border-radius: 12px 12px 12px 12px;
+  -o-border-radius: 12px 12px 12px 12px;
+  filter: drop-shadow(0px 4px 24px black);
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25)); }
+
+.email,
+.password {
+  width: 484px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 12px 12px 12px 12px;
+  padding: 0 10px 0 29px;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -ms-border-radius: 12px 12px 12px 12px;
+  -o-border-radius: 12px 12px 12px 12px;
+  filter: drop-shadow(0px 4px 24px black);
+  -webkit-filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+  border: none;
+  outline: none; }
+
+.checkbox1,
+.checkbox2 {
+  width: 189px;
+  height: 45px;
+  border: 1px solid #ffb565;
+  border-radius: 22.5px;
+  color: #ffb565;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  -webkit-border-radius: 22.5px;
+  -moz-border-radius: 22.5px;
+  -ms-border-radius: 22.5px;
+  -o-border-radius: 22.5px; }
+
+input:checked ~ label {
+  border-color: #ff8a58;
+  color: #ff8a58; }
+
+.card {
+  font-family: "Montserrat", sans-serif;
+  width: 340px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  height: 348px; }
+
+.card-image {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: linear-gradient(to left top, #ff8a58, #ffb565); }
+
+.profile-image img {
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: -75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 10px solid #fff; }
+
+.profile-image img:hover {
+  transform: scale(1.1); }
+
+.card-content h3 {
+  text-align: center; }
+
+.card-content p {
+  text-align: center;
+  padding: 10px 20px 5px 20px; }
+
+.icons {
+  display: flex;
+  justify-content: space-between; }
+  .icons .right {
+    display: flex;
+    padding-left: 10%; }
+    .icons .right p {
+      padding-left: 20%; }
+  .icons img {
+    padding-right: 10%; }
+
+.lieu {
+  padding-left: 10%;
+  margin-top: 4%; }
+
+.sectionProfilCadre {
+  display: flex;
+  justify-content: center; }
+  .sectionProfilCadre .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 72%;
+    justify-content: space-evenly; }
+
+@media screen and (min-width: 3070px) and (max-width: 3074px) {
+  .heroSection h1 {
+    width: 60%; }
+
+  .heroSection .vectorGauche {
+    top: 36%;
+    right: 68%; }
+  .heroSection .vectorDroit {
+    top: 26%;
+    right: 28%; }
+  .heroSection .paraForm {
+    padding-top: 5%; }
+
+  .decouvrirSection p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px; }
+
+  .categoriesSection {
+    height: 900px; }
+    .categoriesSection .etapeThematique::before {
+      right: 38%; }
+    .categoriesSection .etapeThematique::after {
+      left: 38%; }
+
+  .profilSection .expertTitre::before {
+    right: 39%; }
+  .profilSection .expertTitre::after {
+    left: 39%; }
+
+  .etapeInscription .choix::before {
+    right: 42%; }
+  .etapeInscription .choix::after {
+    left: 42%; }
+
+  .informations::before {
+    right: 41%; }
+
+  .informations::after {
+    left: 41%; } }
+@media screen and (min-width: 2519px) and (max-width: 2650px) {
+  .heroSection h1 {
+    width: 60%; }
+  .heroSection .vectorDroit {
+    top: 39%;
+    right: 24%; }
+  .heroSection .vectorGauche {
+    top: 55%;
+    right: 71%; }
+  .heroSection .paraForm {
+    padding-top: 9%; } }
+@media screen and (min-width: 1425px) and (max-width: 1450px) {
+  .heroSection h1 {
+    width: 60%; }
+  .heroSection .vectorDroit {
+    top: 23%;
+    right: 19%; }
+  .heroSection .vectorGauche {
+    top: 44%;
+    right: 80%; }
+  .heroSection .paraForm {
+    padding-top: 23%; }
+
+  .etapeTitre::before {
+    right: 26%; }
+
+  .etapeTitre::after {
+    left: 26%; }
+
+  .categoriesSection h2::before {
+    right: 24%; }
+
+  .categoriesSection h2::after {
+    left: 24%; }
+
+  .profilSection h2::before {
+    right: 26%; }
+
+  .profilSection h2::after {
+    left: 26%; }
+
+  .etapeInscription .choix::before {
+    right: 32%; }
+  .etapeInscription .choix::after {
+    left: 32%; }
+  .etapeInscription .informations::before {
+    right: 30%; }
+  .etapeInscription .informations::after {
+    left: 30%; }
+
+  .etapeConnection .Connection::before {
+    right: 34%; }
+  .etapeConnection .Connection::after {
+    left: 34%; }
+
+  .connectionFooter {
+    margin-top: 17%; }
+
+  .sectionProfilCadre .container {
+    width: 100%;
+    justify-content: center;
+    gap: 3%; } }
+@media screen and (min-width: 1325px) and (max-width: 1327px) {
+  .heroSection h1 {
+    width: 60%; }
+  .heroSection .vectorDroit {
+    top: 23%;
+    right: 19%; }
+  .heroSection .vectorGauche {
+    top: 44%;
+    right: 80%; }
+  .heroSection .paraForm {
+    padding-top: 26%; }
+
+  .etapeTitre::before {
+    right: 26%; }
+
+  .etapeTitre::after {
+    left: 26%; }
+
+  .categoriesSection h2::before {
+    right: 24%; }
+
+  .categoriesSection h2::after {
+    left: 24%; }
+
+  .profilSection h2::before {
+    right: 26%; }
+
+  .profilSection h2::after {
+    left: 26%; }
+
+  .etapeInscription .choix::before {
+    right: 32%; }
+  .etapeInscription .choix::after {
+    left: 32%; }
+  .etapeInscription .informations::before {
+    right: 30%; }
+  .etapeInscription .informations::after {
+    left: 30%; }
+
+  .etapeConnection .Connection::before {
+    right: 34%; }
+  .etapeConnection .Connection::after {
+    left: 34%; }
+
+  .connectionFooter {
+    margin-top: 17%; } }
+@media screen and (min-width: 1178px) and (max-width: 1200px) {
+  .heroSection h1 {
+    width: 65%; }
+
+  .heroSection .vectorGauche {
+    top: 58%;
+    right: 84%; }
+
+  .heroSection .vectorDroit {
+    position: absolute;
+    top: 29%;
+    right: 17%; }
+
+  .etapeTitre::before {
+    right: 23%; }
+
+  .etapeTitre::after {
+    left: 23%; }
+
+  .categoriesSection h2::before {
+    right: 21%; }
+
+  .categoriesSection h2::after {
+    left: 21%; }
+
+  .profilSection h2::before {
+    right: 24%; }
+
+  .profilSection h2::after {
+    left: 24%; }
+
+  .etapeInscription .choix::before {
+    right: 30%; }
+
+  .etapeInscription .choix::after {
+    left: 30%; }
+
+  .etapeInscription .informations::before {
+    right: 28%; }
+
+  .etapeInscription .informations::after {
+    left: 28%; }
+
+  .etapeConnection h2::before {
+    right: 31%; }
+
+  .etapeConnection h2::after {
+    left: 31%; }
+
+  .connectionFooter {
+    height: 200px; }
+
+  .categoriesSection {
+    height: 500px; }
+
+  .profilSection .container {
+    flex-wrap: wrap; } }
+@media screen and (min-width: 768px) and (max-width: 1121px) {
+  .profilSection .container {
+    flex-wrap: wrap; }
+
+  .container {
+    width: 100%; }
+
+  .categoriesSection .container div {
+    width: calc((100%) / 3); }
+
+  .categoriesSection {
+    height: 100%; }
+
+  .profilSection h2::after {
+    content: none; }
+
+  .profilSection h2::before {
+    content: none; }
+
+  .categoriesSection h2::after {
+    content: none; }
+
+  .categoriesSection h2::before {
+    content: none; }
+
+  .container .etapeTitre::after {
+    content: none; }
+
+  .container .etapeTitre::before {
+    content: none; }
+
+  .etapeSection {
+    display: block; }
+    .etapeSection article {
+      width: 100%; }
+
+  .decouvrirSection {
+    display: flex;
+    flex-wrap: wrap; }
+    .decouvrirSection .article {
+      width: 100%; }
+    .decouvrirSection .decouvrirKawa {
+      padding-top: 5%;
+      padding-left: 4%;
+      width: 100%; }
+      .decouvrirSection .decouvrirKawa p {
+        width: 95%; }
+    .decouvrirSection .secondeImage {
+      width: 90%;
+      padding-top: 4%;
+      margin: 0 auto; }
+
+  .heroSection {
+    height: 100%; }
+    .heroSection h1 {
+      font-size: 20px;
+      line-height: 32px;
+      width: 90%; }
+
+  .Recherche {
+    display: none; }
+
+  .vectorDroit {
+    display: none; }
+
+  .vectorGauche {
+    display: none; }
+
+  .logoInsta {
+    display: none; }
+
+  .paraForm p {
+    display: none; }
+
+  header nav ul li {
+    margin-right: 10px; }
+
+  header a .logo {
+    width: 67px; }
+
+  .btnPreco {
+    font-size: 14px; }
+
+  .checkboxSection {
+    flex-wrap: wrap; }
+
+  .inscriptionForm .container {
+    flex-wrap: wrap; }
+
+  .email,
+  .password {
+    width: 241px; }
+
+  .connectionFooter {
+    margin-top: 92%; }
+
+  .textDescription {
+    width: 73%; }
+
+  .sectionProfil .container {
+    width: 90%; }
+
+  .sectionProfil .container .card .icons {
+    gap: 7%; }
+
+  .etapeInscription .informations::before {
+    content: none; }
+
+  .etapeInscription .informations::after {
+    content: none; }
+
+  .etapeInscription .choix::before {
+    content: none; }
+
+  .etapeInscription .choix::after {
+    content: none; }
+
+  .etapeConnection h2::before {
+    content: none; }
+
+  .etapeConnection h2::after {
+    content: none; } }
+@media screen and (min-width: 318px) and (max-width: 426px) {
+  .profilSection .container {
+    flex-wrap: wrap; }
+
+  .container {
+    width: 100%; }
+
+  .categoriesSection .container div {
+    width: calc((100%) / 2); }
+
+  .categoriesSection {
+    height: 100%; }
+
+  .profilSection h2::after {
+    content: none; }
+
+  .profilSection h2::before {
+    content: none; }
+
+  .categoriesSection h2::after {
+    content: none; }
+
+  .categoriesSection h2::before {
+    content: none; }
+
+  .container .etapeTitre::after {
+    content: none; }
+
+  .container .etapeTitre::before {
+    content: none; }
+
+  .etapeSection {
+    display: block; }
+    .etapeSection article {
+      width: 100%; }
+
+  .decouvrirSection {
+    display: flex;
+    flex-wrap: wrap; }
+    .decouvrirSection .article {
+      width: 100%; }
+    .decouvrirSection .decouvrirKawa {
+      padding-top: 5%;
+      padding-left: 4%;
+      width: 100%; }
+      .decouvrirSection .decouvrirKawa p {
+        width: 100%; }
+    .decouvrirSection .secondeImage {
+      width: 90%;
+      padding-top: 4%;
+      margin: 0 auto; }
+
+  .heroSection {
+    height: 100%; }
+    .heroSection h1 {
+      font-size: 20px;
+      line-height: 32px;
+      width: 100%; }
+
+  .Recherche {
+    display: none; }
+
+  .vectorDroit {
+    display: none; }
+
+  .vectorGauche {
+    display: none; }
+
+  .logoInsta {
+    display: none; }
+
+  .paraForm p {
+    display: none; }
+
+  header nav ul li {
+    margin-right: 10px; }
+
+  header a .logo {
+    width: 67px; }
+
+  .btnPreco {
+    font-size: 14px; }
+
+  .checkboxSection {
+    flex-wrap: wrap; }
+
+  .inscriptionForm .container {
+    flex-wrap: wrap; }
+
+  .email,
+  .password {
+    width: 241px; }
+
+  .checkbox2 {
+    margin-top: 8%; }
+
+  .connectionFooter {
+    margin-top: 92%; }
+
+  .textDescription {
+    width: 73%; }
+
+  .sectionProfil .container {
+    width: 90%; }
+
+  .sectionProfil .container .card .icons {
+    gap: 7%; }
+
+  .etapeInscription .informations::before {
+    content: none; }
+
+  .etapeInscription .informations::after {
+    content: none; }
+
+  .etapeInscription .choix::before {
+    content: none; }
+
+  .etapeInscription .choix::after {
+    content: none; }
+
+  .etapeConnection h2::before {
+    content: none; }
+
+  .etapeConnection h2::after {
+    content: none; } }
+
+/*# sourceMappingURL=style.css.map */
